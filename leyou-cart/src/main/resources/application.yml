@@ -1,0 +1,24 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: cart-service
+  main:
+    allow-bean-definition-overriding: true
+  redis:
+    host: 192.168.28.131
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/leyou?authSource=admin
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10000/eureka
+    registry-fetch-interval-seconds: 10
+  instance:
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 15
+leyou:
+  jwt:
+    pubKeyPath: D:\\leyou\\rsa\\rsa.pub # 公钥地址
+    cookieName: LY_TOKEN
