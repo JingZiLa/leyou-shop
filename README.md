@@ -42,6 +42,7 @@
   ![1525704277126](assets/1525704277126.png)
 
 
+-更多项目截图 :  https://gitee.com/jingzila/leyou-shop/tree/master/leyou-project-Images 
 
 无论是前台还是后台系统，都共享相同的微服务集群，包括：
 
@@ -195,7 +196,4 @@
 
 **tb_order_detail 订单详情表**：订单具体的商品信息sku
 
-
-
-## 2.5更多项目截图 :  https://gitee.com/jingzila/leyou-shop/tree/master/leyou-project-Images 
 
